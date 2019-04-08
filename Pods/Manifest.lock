@@ -1,0 +1,25 @@
+PODS:
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SkyFloatingLabelTextField (3.6.0)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
+  - SkyFloatingLabelTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxSwift
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+
+PODFILE CHECKSUM: df09e92a1793e3d69fa37b41f4287d4946c2adba
+
+COCOAPODS: 1.5.3
