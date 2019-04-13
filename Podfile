@@ -7,7 +7,7 @@ target 'AppLayout' do
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'SkyFloatingLabelTextField'
-
+    pod 'Segmentio', '~> 3.3'
   # Pods for AppLayout
 
   target 'AppLayoutTests' do

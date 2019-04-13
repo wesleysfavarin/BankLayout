@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,29 +15,45 @@
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" id="Jdu-H2-Q2Y" customClass="HomeViewController" customModule="AppLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="uyC-cD-9pw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qo-lg-tH4">
-                                <rect key="frame" x="16" y="239" width="343" height="30"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TRB-9a-POE">
+                                <rect key="frame" x="0.0" y="209" width="414" height="687"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.63137254899999995" green="0.14044086172191786" blue="0.63175079322876704" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                <state key="normal" title="Push next page">
-                                    <color key="titleColor" red="0.93543343899999998" green="1" blue="0.93839002549999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onGoToCartoes:" destination="Jdu-H2-Q2Y" eventType="touchUpInside" id="xuA-6Q-frf"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ybQ-4O-s8H">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="bhH-PQ-TRP"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1H1-A4-Nkr" customClass="Segmentio" customModule="Segmentio">
+                                <rect key="frame" x="0.0" y="120" width="414" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.1215686275" blue="0.35294117650000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.16078431369999999" green="0.1215686275" blue="0.35294117650000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ybQ-4O-s8H" firstAttribute="leading" secondItem="5VZ-d2-mcq" secondAttribute="leading" id="9p2-zm-fhM"/>
+                            <constraint firstItem="ybQ-4O-s8H" firstAttribute="trailing" secondItem="5VZ-d2-mcq" secondAttribute="trailing" id="Sb1-7B-pE0"/>
+                            <constraint firstItem="ybQ-4O-s8H" firstAttribute="top" secondItem="uyC-cD-9pw" secondAttribute="top" id="ayC-De-3r2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5VZ-d2-mcq"/>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="TRB-9a-POE" id="awP-Aa-zAf"/>
+                        <outlet property="seguientioView" destination="1H1-A4-Nkr" id="KH7-Ft-YwT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svA-0M-obI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="151.57421289355324"/>
+            <point key="canvasLocation" x="155.07246376811597" y="151.33928571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="636" height="253"/>
+    </resources>
 </document>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04718CBC2261FD490094BB67 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718CBB2261FD490094BB67 /* TabBarView.swift */; };
+		04718CC7226230260094BB67 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718CC6226230260094BB67 /* UIColor.swift */; };
+		04718CD122626AA60094BB67 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718CD022626AA60094BB67 /* Navigation.swift */; };
 		0495D9BB225A6144001CFB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495D9BA225A6144001CFB2A /* AppDelegate.swift */; };
 		0495D9C3225A6144001CFB2A /* AppLayout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0495D9C1225A6144001CFB2A /* AppLayout.xcdatamodeld */; };
 		0495D9C5225A6145001CFB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0495D9C4225A6145001CFB2A /* Assets.xcassets */; };
@@ -65,6 +68,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04718CBB2261FD490094BB67 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		04718CC6226230260094BB67 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		04718CD022626AA60094BB67 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		0495D9B7225A6144001CFB2A /* AppLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0495D9BA225A6144001CFB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0495D9C2225A6144001CFB2A /* AppLayout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppLayout.xcdatamodel; sourceTree = "<group>"; };
@@ -145,6 +151,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04718CB82261FD050094BB67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0495DA28225A8B11001CFB2A /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04718CB92261FD170094BB67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04718CBA2261FD230094BB67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04718CBB2261FD490094BB67 /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04718CC8226230860094BB67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0495DA2A225A8B4A001CFB2A /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0495D9AE225A6144001CFB2A = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				0495D9F3225A753C001CFB2A /* Dynamic.swift */,
+				04718CD022626AA60094BB67 /* Navigation.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -235,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				0495D9F5225A7579001CFB2A /* UIStoryboard.swift */,
+				04718CC6226230260094BB67 /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -354,8 +393,10 @@
 		0495DA25225A8ACC001CFB2A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				0495DA28225A8B11001CFB2A /* HomeViewController.swift */,
-				0495DA2A225A8B4A001CFB2A /* HomeViewModel.swift */,
+				04718CC8226230860094BB67 /* ViewModel */,
+				04718CBA2261FD230094BB67 /* View */,
+				04718CB92261FD170094BB67 /* Model */,
+				04718CB82261FD050094BB67 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -560,6 +601,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-AppLayout/Pods-AppLayout-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -568,6 +610,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,12 +671,15 @@
 			files = (
 				0495D9FE225A7618001CFB2A /* ApplicationCoordinator.swift in Sources */,
 				0495DA36225AAC89001CFB2A /* CartoesModel.swift in Sources */,
+				04718CBC2261FD490094BB67 /* TabBarView.swift in Sources */,
 				0495DA2B225A8B4A001CFB2A /* HomeViewModel.swift in Sources */,
 				0495DA08225A7738001CFB2A /* ViewControllerFactory.swift in Sources */,
+				04718CC7226230260094BB67 /* UIColor.swift in Sources */,
 				0495DA00225A7655001CFB2A /* BaseCoordinator.swift in Sources */,
 				0495DA38225AAD9F001CFB2A /* CartoesCoordinator.swift in Sources */,
 				0495D9F6225A7579001CFB2A /* UIStoryboard.swift in Sources */,
 				0495D9F4225A753C001CFB2A /* Dynamic.swift in Sources */,
+				04718CD122626AA60094BB67 /* Navigation.swift in Sources */,
 				0495DA29225A8B11001CFB2A /* HomeViewController.swift in Sources */,
 				0495DA04225A76B4001CFB2A /* DeepLinkOption.swift in Sources */,
 				0495DA1F225A822B001CFB2A /* ViewController+Coordinator.swift in Sources */,
