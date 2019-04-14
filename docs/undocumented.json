@@ -1,0 +1,971 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 41,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 46,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 51,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 55,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 59,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 67,
+      "symbol": "AppDelegate.persistentContainer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Application/AppDelegate.swift",
+      "line": 96,
+      "symbol": "AppDelegate.saveContext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Base/BaseCoordinator.swift",
+      "line": 10,
+      "symbol": "BaseCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Base/BaseCoordinator.swift",
+      "line": 14,
+      "symbol": "BaseCoordinator.childCoordinators",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Base/BaseCoordinator.swift",
+      "line": 18,
+      "symbol": "BaseCoordinator.addDependency(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Base/BaseCoordinator.swift",
+      "line": 25,
+      "symbol": "BaseCoordinator.removeDependency(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Base/BaseCoordinator.swift",
+      "line": 38,
+      "symbol": "BaseCoordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Base/BaseCoordinator.swift",
+      "line": 42,
+      "symbol": "BaseCoordinator.start(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/DeepLinkOption.swift",
+      "line": 10,
+      "symbol": "DeepLinkOption",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/LaunchInstructor.swift",
+      "line": 16,
+      "symbol": "LaunchInstructor",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/LaunchInstructor.swift",
+      "line": 18,
+      "symbol": "LaunchInstructor.main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/LaunchInstructor.swift",
+      "line": 19,
+      "symbol": "LaunchInstructor.auth",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/LaunchInstructor.swift",
+      "line": 20,
+      "symbol": "LaunchInstructor.home",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/LaunchInstructor.swift",
+      "line": 21,
+      "symbol": "LaunchInstructor.cartoes",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Enums/LaunchInstructor.swift",
+      "line": 25,
+      "symbol": "LaunchInstructor.configure(tutorialWasShown:isAutorized:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Extensions/ViewController+Coordinator.swift",
+      "line": 14,
+      "symbol": "UIViewController.toPresent()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 10,
+      "symbol": "CoordinatorFactoryProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 11,
+      "symbol": "CoordinatorFactoryProtocol.makeAuthCoordinatorBox(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 13,
+      "symbol": "CoordinatorFactoryProtocol.makeHomeCoordinatorBox(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 17,
+      "symbol": "CoordinatorFactoryProtocol.makeCartoesCoordinatorBox(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 20,
+      "symbol": "CoordinatorFactory",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 25,
+      "symbol": "CoordinatorFactory.makeAuthCoordinatorBox(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 31,
+      "symbol": "CoordinatorFactory.makeHomeCoordinatorBox(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/CoordinatorFactory.swift",
+      "line": 37,
+      "symbol": "CoordinatorFactory.makeCartoesCoordinatorBox(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/ViewControllerFactory.swift",
+      "line": 10,
+      "symbol": "ViewControllerFactory",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/ViewControllerFactory.swift",
+      "line": 12,
+      "symbol": "ViewControllerFactory.instantiateLoginViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/ViewControllerFactory.swift",
+      "line": 18,
+      "symbol": "ViewControllerFactory.instantiateHomeViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Factory/ViewControllerFactory.swift",
+      "line": 24,
+      "symbol": "ViewControllerFactory.instantiateCartoesViewController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/AuthCoordinatorOutput.swift",
+      "line": 10,
+      "symbol": "CoordinatorFinishOutput",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/AuthCoordinatorOutput.swift",
+      "line": 11,
+      "symbol": "CoordinatorFinishOutput.finishFlow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/BaseViewControllerProtocol.swift",
+      "line": 10,
+      "symbol": "BaseViewControllerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/Coordinator.swift",
+      "line": 11,
+      "symbol": "Coordinator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/Coordinator.swift",
+      "line": 12,
+      "symbol": "Coordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/Coordinator.swift",
+      "line": 13,
+      "symbol": "Coordinator.start(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/Presentable.swift",
+      "line": 11,
+      "symbol": "Presentable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Protocols/Presentable.swift",
+      "line": 12,
+      "symbol": "Presentable.toPresent()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": null,
+      "symbol": "Router",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 12,
+      "symbol": "RouterProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 14,
+      "symbol": "RouterProtocol.present(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 15,
+      "symbol": "RouterProtocol.present(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 17,
+      "symbol": "RouterProtocol.push(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 18,
+      "symbol": "RouterProtocol.push(_:transition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 19,
+      "symbol": "RouterProtocol.push(_:transition:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 20,
+      "symbol": "RouterProtocol.push(_:transition:animated:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 22,
+      "symbol": "RouterProtocol.popModule()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 23,
+      "symbol": "RouterProtocol.popModule(transition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 24,
+      "symbol": "RouterProtocol.popModule(transition:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 26,
+      "symbol": "RouterProtocol.dismissModule()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 27,
+      "symbol": "RouterProtocol.dismissModule(animated:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 29,
+      "symbol": "RouterProtocol.setRootModule(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 30,
+      "symbol": "RouterProtocol.setRootModule(_:hideBar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 32,
+      "symbol": "RouterProtocol.popToRootModule(animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 33,
+      "symbol": "RouterProtocol.popToModule(module:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 36,
+      "symbol": "Router",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 46,
+      "symbol": "Router.toPresent()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 52,
+      "symbol": "Router.present(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 56,
+      "symbol": "Router.present(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 61,
+      "symbol": "Router.push(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 65,
+      "symbol": "Router.push(_:transition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 69,
+      "symbol": "Router.push(_:transition:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 73,
+      "symbol": "Router.push(_:transition:animated:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 85,
+      "symbol": "Router.popModule()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 89,
+      "symbol": "Router.popModule(transition:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 93,
+      "symbol": "Router.popModule(transition:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 100,
+      "symbol": "Router.popToModule(module:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 111,
+      "symbol": "Router.dismissModule()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 115,
+      "symbol": "Router.dismissModule(animated:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 119,
+      "symbol": "Router.setRootModule(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 123,
+      "symbol": "Router.setRootModule(_:hideBar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 129,
+      "symbol": "Router.popToRootModule(animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 147,
+      "symbol": "Router.init(rootController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/BaseCoordinator/Router/Router.swift",
+      "line": 160,
+      "symbol": "Router.navigationController(_:animationControllerFor:from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/ApplicationCoordinator.swift",
+      "line": 10,
+      "symbol": "ApplicationCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/ApplicationCoordinator.swift",
+      "line": 21,
+      "symbol": "ApplicationCoordinator.start(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/ApplicationCoordinator.swift",
+      "line": 82,
+      "symbol": "ApplicationCoordinator.init(router:coordinatorFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/AuthCoordinator.swift",
+      "line": 10,
+      "symbol": "AuthCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/AuthCoordinator.swift",
+      "line": 12,
+      "symbol": "AuthCoordinator.finishFlow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/AuthCoordinator.swift",
+      "line": 32,
+      "symbol": "AuthCoordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/AuthCoordinator.swift",
+      "line": 37,
+      "symbol": "AuthCoordinator.init(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/CartoesCoordinator.swift",
+      "line": 10,
+      "symbol": "CartoesCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/CartoesCoordinator.swift",
+      "line": 11,
+      "symbol": "CartoesCoordinator.finishFlow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/CartoesCoordinator.swift",
+      "line": 35,
+      "symbol": "CartoesCoordinator.init(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/HomeCoordinator.swift",
+      "line": 10,
+      "symbol": "HomeCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/HomeCoordinator.swift",
+      "line": 14,
+      "symbol": "HomeCoordinator.finishFlow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/HomeCoordinator.swift",
+      "line": 46,
+      "symbol": "HomeCoordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Coordinator/Coordinators/HomeCoordinator.swift",
+      "line": 52,
+      "symbol": "HomeCoordinator.init(router:coordinatorFactory:viewControllerFactory:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Extension/UIStoryboard.swift",
+      "line": 15,
+      "symbol": "UIStoryboard.home",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Extension/UIStoryboard.swift",
+      "line": 19,
+      "symbol": "UIStoryboard.auth",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Extension/UIStoryboard.swift",
+      "line": 23,
+      "symbol": "UIStoryboard.cartoes",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Extension/UIStoryboard.swift",
+      "line": 27,
+      "symbol": "UIStoryboard.walktrough",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Extension/UIStoryboard.swift",
+      "line": 31,
+      "symbol": "UIStoryboard.profile",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthModel.swift",
+      "line": 11,
+      "symbol": "Login",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 11,
+      "symbol": "AuthViewControllerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 12,
+      "symbol": "AuthViewControllerProtocol.onLogin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 13,
+      "symbol": "AuthViewControllerProtocol.onRegister",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 14,
+      "symbol": "AuthViewControllerProtocol.onChangePassword",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 15,
+      "symbol": "AuthViewControllerProtocol.onFinish",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 18,
+      "symbol": "AuthViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 19,
+      "symbol": "AuthViewController.onFinish",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 22,
+      "symbol": "AuthViewController.onLogin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 24,
+      "symbol": "AuthViewController.onRegister",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 26,
+      "symbol": "AuthViewController.onChangePassword",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 28,
+      "symbol": "AuthViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 30,
+      "symbol": "AuthViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 37,
+      "symbol": "AuthViewController.login()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 41,
+      "symbol": "AuthViewController.register()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewController.swift",
+      "line": 45,
+      "symbol": "AuthViewController.forgetPassword()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewModel.swift",
+      "line": 11,
+      "symbol": "AuthViewModelProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewModel.swift",
+      "line": 15,
+      "symbol": "AuthViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Auth/Login/AuthViewModel.swift",
+      "line": 17,
+      "symbol": "AuthViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 11,
+      "symbol": "CartoesViewControllerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 12,
+      "symbol": "CartoesViewControllerProtocol.onBack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 13,
+      "symbol": "CartoesViewControllerProtocol.onCartoes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 16,
+      "symbol": "CartoesViewControllerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 17,
+      "symbol": "CartoesViewControllerDelegate.didSelectDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 20,
+      "symbol": "CartoesViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 22,
+      "symbol": "CartoesViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 28,
+      "symbol": "CartoesViewController.onBack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 29,
+      "symbol": "CartoesViewController.onCartoes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CartoesViewController.swift",
+      "line": 33,
+      "symbol": "CartoesViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CatoesViewModel.swift",
+      "line": 10,
+      "symbol": "CartoesViewModelProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CatoesViewModel.swift",
+      "line": 13,
+      "symbol": "CartoesViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Scenes/Extrato/CatoesViewModel.swift",
+      "line": 17,
+      "symbol": "CartoesViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 9,
+      "symbol": "Dynamic",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 13,
+      "symbol": "Dynamic.Listener",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 17,
+      "symbol": "Dynamic.listener",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 18,
+      "symbol": "Dynamic.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 26,
+      "symbol": "Dynamic.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 32,
+      "symbol": "Dynamic.bind(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 36,
+      "symbol": "Dynamic.bindAndFire(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mac/Desktop/IosAPPs/AppLayout/AppLayout/Util/Dynamic.swift",
+      "line": 43,
+      "symbol": "Dynamic.fire()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/mac/Desktop/IosAPPs/AppLayout"
+}

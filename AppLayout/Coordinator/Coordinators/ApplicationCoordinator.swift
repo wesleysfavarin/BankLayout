@@ -9,15 +9,15 @@
 import Foundation
 class ApplicationCoordinator: BaseCoordinator {
     
+    /// Variaveis e lets
     // MARK: - Vars & Lets
-    
     private let coordinatorFactory: CoordinatorFactoryProtocol
     private let router: RouterProtocol
     private var launchInstructor = LaunchInstructor.configure()
     private let viewControllerFactory: ViewControllerFactory = ViewControllerFactory()
     
+    /// Método que inicia a navegação com coordinators
     // MARK: - Coordinator
-    
     override func start(with option: DeepLinkOption?) {
         if option != nil {
             
@@ -30,9 +30,8 @@ class ApplicationCoordinator: BaseCoordinator {
             }
         }
     }
-    
+    /// Métodos privados
     // MARK: - Private methods
-    
     private func runAFlow() {
         let coordinator = self.coordinatorFactory.makeAuthCoordinatorBox(router: self.router, coordinatorFactory: self.coordinatorFactory, viewControllerFactory: self.viewControllerFactory)
         coordinator.finishFlow = { [unowned self, unowned coordinator] in
@@ -78,8 +77,8 @@ class ApplicationCoordinator: BaseCoordinator {
 //        coordinator.start()
     }
     
+    /// Método init do coordinator pai
     // MARK: - Init
-  
     init(router: Router, coordinatorFactory: CoordinatorFactory) {
         self.router = router
         self.coordinatorFactory = coordinatorFactory

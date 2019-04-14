@@ -8,6 +8,7 @@ target 'AppLayout' do
     pod 'RxCocoa'
     pod 'SkyFloatingLabelTextField'
     pod 'Segmentio', '~> 3.3'
+    pod 'ScalingCarousel'
   # Pods for AppLayout
 
   target 'AppLayoutTests' do

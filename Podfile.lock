@@ -2,12 +2,14 @@ PODS:
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
+  - ScalingCarousel (2.4.1)
   - Segmentio (3.3)
   - SkyFloatingLabelTextField (3.6.0)
 
 DEPENDENCIES:
   - RxCocoa
   - RxSwift
+  - ScalingCarousel
   - Segmentio (~> 3.3)
   - SkyFloatingLabelTextField
 
@@ -15,15 +17,17 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - RxCocoa
     - RxSwift
+    - ScalingCarousel
     - Segmentio
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  ScalingCarousel: 2f8d7d7dc02a4aff33ad0ca4148f9b27b2c8f91c
   Segmentio: 4ff49aa4f4c916998c0d886c549ce62ca9eae251
   SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
 
-PODFILE CHECKSUM: 8eced2b6f93511ab1f66aa18a7ba22f4bb88e560
+PODFILE CHECKSUM: 94ff831db8bd74e9b3b5fc35d3c81ceb73cb0171
 
 COCOAPODS: 1.5.3

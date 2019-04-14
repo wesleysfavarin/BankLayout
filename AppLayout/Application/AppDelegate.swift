@@ -13,12 +13,25 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    
+    /// criamos um storyboard main, para facilitar a configuraçao das storybards
     var rootController: UINavigationController {
         return self.window!.rootViewController as! UINavigationController
     }
-    private lazy var applicationCoordinator: Coordinator = ApplicationCoordinator(router: Router(rootController: self.rootController), coordinatorFactory: CoordinatorFactory())
     
+    /// Esta linha cria uma instancia da primeira tela a ser executada no aplicativo, no caso o Login.
+    private lazy var applicationCoordinator: Coordinator = ApplicationCoordinator(router: Router(rootController: self.rootController), coordinatorFactory: CoordinatorFactory())
+        /**
+            Chame a classe applicationCoordinator para iniciar o uso do coordinator, na classe existe um método chamado start()
+            - Parâmetros:
+            - Método start: start(with option: DeepLinkOption?) para facilitar a criação de deeplinks nós criamos um enum assim sempre que for necessário você pode passar para qual tela precisa navegar
+            - Enum -> .home , .auth, .main, .cartões
+            - No método abaixo application: execute a chamada do onstart
+     
+            ### Exemplo de uso: ###
+            `` ``
+                     self.applicationCoordinator.start(with: nil)
+            `` ``
+    */
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.applicationCoordinator.start(with: nil)

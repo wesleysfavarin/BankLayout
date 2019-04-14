@@ -6,6 +6,8 @@
 //  Copyright © 2019 Wesley S. Favarin. All rights reserved.
 //
 
+
+/// Classe de configuraçAo para o deeplink, enum
 import Foundation
 
 fileprivate var onboardingWasShown = false
