@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04173C23226A093000DEB979 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04173C22226A093000DEB979 /* TableViewCell.swift */; };
+		04173C26226B6D4900DEB979 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04173C25226B6D4900DEB979 /* History.storyboard */; };
+		04173C29226BA87E00DEB979 /* SegmentioBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04173C28226BA87E00DEB979 /* SegmentioBuilder.swift */; };
+		04173C2B226BA8F200DEB979 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04173C2A226BA8F200DEB979 /* ColorPalette.swift */; };
+		04173C2D226BA9A600DEB979 /* UIFont+ExampleFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04173C2C226BA9A600DEB979 /* UIFont+ExampleFonts.swift */; };
+		04173C2F226CC06200DEB979 /* TabCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04173C2E226CC06200DEB979 /* TabCards.swift */; };
 		04718CBC2261FD490094BB67 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718CBB2261FD490094BB67 /* TabBarView.swift */; };
 		04718CC7226230260094BB67 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718CC6226230260094BB67 /* UIColor.swift */; };
 		04718CD122626AA60094BB67 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04718CD022626AA60094BB67 /* Navigation.swift */; };
@@ -68,6 +74,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04173C22226A093000DEB979 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04173C25226B6D4900DEB979 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		04173C28226BA87E00DEB979 /* SegmentioBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentioBuilder.swift; sourceTree = "<group>"; };
+		04173C2A226BA8F200DEB979 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		04173C2C226BA9A600DEB979 /* UIFont+ExampleFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+ExampleFonts.swift"; sourceTree = "<group>"; };
+		04173C2E226CC06200DEB979 /* TabCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCards.swift; sourceTree = "<group>"; };
 		04718CBB2261FD490094BB67 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		04718CC6226230260094BB67 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		04718CD022626AA60094BB67 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
@@ -151,6 +163,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04173C24226B6A1F00DEB979 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		04173C27226BA83C00DEB979 /* Tabbbed */ = {
+			isa = PBXGroup;
+			children = (
+				04173C28226BA87E00DEB979 /* SegmentioBuilder.swift */,
+				04173C2E226CC06200DEB979 /* TabCards.swift */,
+			);
+			path = Tabbbed;
+			sourceTree = "<group>";
+		};
 		04718CB82261FD050094BB67 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				04718CBB2261FD490094BB67 /* TabBarView.swift */,
+				04173C22226A093000DEB979 /* TableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +273,7 @@
 			children = (
 				0495D9F3225A753C001CFB2A /* Dynamic.swift */,
 				04718CD022626AA60094BB67 /* Navigation.swift */,
+				04173C2A226BA8F200DEB979 /* ColorPalette.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -255,6 +285,7 @@
 				0495DA21225A8A2C001CFB2A /* Main.storyboard */,
 				0495DA23225A8A9F001CFB2A /* Home.storyboard */,
 				0495DA2E225AABE6001CFB2A /* Cartoes.storyboard */,
+				04173C25226B6D4900DEB979 /* History.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -262,6 +293,8 @@
 		0495D9ED225A74D4001CFB2A /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				04173C27226BA83C00DEB979 /* Tabbbed */,
+				04173C24226B6A1F00DEB979 /* History */,
 				0495DA30225AAC17001CFB2A /* Extrato */,
 				0495DA25225A8ACC001CFB2A /* Home */,
 				0495DA20225A883E001CFB2A /* Auth */,
@@ -274,6 +307,7 @@
 			children = (
 				0495D9F5225A7579001CFB2A /* UIStoryboard.swift */,
 				04718CC6226230260094BB67 /* UIColor.swift */,
+				04173C2C226BA9A600DEB979 /* UIFont+ExampleFonts.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -544,6 +578,7 @@
 			files = (
 				0495DA12225A7A79001CFB2A /* Auth.storyboard in Resources */,
 				0495DA24225A8A9F001CFB2A /* Home.storyboard in Resources */,
+				04173C26226B6D4900DEB979 /* History.storyboard in Resources */,
 				0495D9C8225A6145001CFB2A /* LaunchScreen.storyboard in Resources */,
 				0495D9C5225A6145001CFB2A /* Assets.xcassets in Resources */,
 				0495DA2F225AABE6001CFB2A /* Cartoes.storyboard in Resources */,
@@ -673,7 +708,9 @@
 			files = (
 				0495D9FE225A7618001CFB2A /* ApplicationCoordinator.swift in Sources */,
 				0495DA36225AAC89001CFB2A /* CartoesModel.swift in Sources */,
+				04173C2F226CC06200DEB979 /* TabCards.swift in Sources */,
 				04718CBC2261FD490094BB67 /* TabBarView.swift in Sources */,
+				04173C29226BA87E00DEB979 /* SegmentioBuilder.swift in Sources */,
 				0495DA2B225A8B4A001CFB2A /* HomeViewModel.swift in Sources */,
 				0495DA08225A7738001CFB2A /* ViewControllerFactory.swift in Sources */,
 				04718CC7226230260094BB67 /* UIColor.swift in Sources */,
@@ -682,6 +719,7 @@
 				0495D9F6225A7579001CFB2A /* UIStoryboard.swift in Sources */,
 				0495D9F4225A753C001CFB2A /* Dynamic.swift in Sources */,
 				04718CD122626AA60094BB67 /* Navigation.swift in Sources */,
+				04173C2D226BA9A600DEB979 /* UIFont+ExampleFonts.swift in Sources */,
 				0495DA29225A8B11001CFB2A /* HomeViewController.swift in Sources */,
 				0495DA04225A76B4001CFB2A /* DeepLinkOption.swift in Sources */,
 				0495DA1F225A822B001CFB2A /* ViewController+Coordinator.swift in Sources */,
@@ -693,6 +731,7 @@
 				0495DA32225AAC2B001CFB2A /* CartoesViewController.swift in Sources */,
 				0495DA34225AAC7F001CFB2A /* CatoesViewModel.swift in Sources */,
 				0495DA10225A793E001CFB2A /* Router.swift in Sources */,
+				04173C23226A093000DEB979 /* TableViewCell.swift in Sources */,
 				0495DA0E225A78C2001CFB2A /* Presentable.swift in Sources */,
 				0495DA2D225A8C05001CFB2A /* HomeCoordinator.swift in Sources */,
 				0495DA17225A7AD1001CFB2A /* AuthViewModel.swift in Sources */,
@@ -701,6 +740,7 @@
 				0495DA1D225A7BDA001CFB2A /* AuthCoordinatorOutput.swift in Sources */,
 				0495DA1B225A7BB1001CFB2A /* AuthCoordinator.swift in Sources */,
 				0495DA15225A7AC3001CFB2A /* AuthModel.swift in Sources */,
+				04173C2B226BA8F200DEB979 /* ColorPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

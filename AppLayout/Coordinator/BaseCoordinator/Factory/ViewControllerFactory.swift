@@ -23,7 +23,7 @@ class ViewControllerFactory {
     
     func instantiateCartoesViewController() -> CartoesViewController {
         let cartoes = UIStoryboard.cartoes.instantiateViewController(withIdentifier: "CartoesViewController") as! CartoesViewController
-        cartoes.viewModel = CartoesViewModel()
+        //cartoes.viewModel = CartoesViewModel()
         return cartoes
     }
 

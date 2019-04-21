@@ -8,29 +8,30 @@
 
 import UIKit
 import Segmentio
-import ScalingCarousel
 /// protocol HomeViewControllerProtocol
 protocol HomeViewControllerProtocol: BaseViewControllerProtocol,UICollectionViewDelegateFlowLayout {
     var onGoToB: (() -> Void)? { get set }
     var onGoToProfile: (() -> Void)? { get set }
     
 }
-/// class Cell: ScalingCarouselCell
-class Cell: ScalingCarouselCell {
-        
-}
+
 /// class HomeViewController: UIViewController, HomeViewControllerProtocol
-class HomeViewController: UIViewController, HomeViewControllerProtocol {
+class HomeViewController: UIViewController, HomeViewControllerProtocol, UITableViewDataSource, UITableViewDelegate  {
+   
+    
     var onGoToB: (() -> Void)?
     var onGoToProfile: (() -> Void)?
    /// criacao de uma instancia da view model
     var viewModel: HomeViewModelProtocol?
-    
+    let cellId = "cellId"
+     var segmentioStyle = SegmentioStyle.imageOverLabel
     /// IBoulets
-    @IBOutlet weak var carousel: ScalingCarouselView!
-    @IBOutlet weak var seguientioView: Segmentio!
     
+    
+    @IBOutlet weak var table: UITableView!
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var tabbed: Segmentio!
+    @IBOutlet weak var tabCards: Segmentio!
     /// ciclo de vida
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,141 +46,95 @@ class HomeViewController: UIViewController, HomeViewControllerProtocol {
         navigationController?.navigationBar.barTintColor = UIColor.white
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
 
-        //navigationController?.navigationBar.setBackgroundImage(img, for: .default)
-       // UINavigationBar.appearance().setBackgroundImage(UIImage(named: "background")!.resizableImage(withCapInsets: UIEdgeInsets.zero, resizingMode: .stretch), for: .default)
-//        let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - 32, height: view.frame.height))
-//        titleLabel.text = "Accounts"
-//        titleLabel.textColor = .white
-//        titleLabel.font = UIFont.systemFont(ofSize: 20)
-//        navigationItem.titleView = titleLabel
+      
         
-        /// condigura o tabbar header
-        setup()
         /// configura animaçao para exibicao das imagens dos cartoes na tea
         UIView.animate(withDuration: 0.5, animations: {
             self.view.layoutIfNeeded()
         })
     }
     
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-        carousel.deviceRotated()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        setupTab()
+        setupTabCards()
     }
     
-    func setup(){
-     seguientioView.selectedSegmentioIndex = 0
-        
-        seguientioView.valueDidChange = { segmentio, segmentIndex in
-            print("Selected item: ", segmentIndex)
-        }
-        
-    let opt = SegmentioOptions(
-            backgroundColor: .clear,
-            segmentPosition:  SegmentioPosition.fixed(maxVisibleItems: 12),
-           scrollEnabled: true,
-           indicatorOptions:  SegmentioIndicatorOptions(
-            type: .bottom,
-            ratio: 1,
-            height: 5,
-            color: .white
-        ),
-            horizontalSeparatorOptions: SegmentioHorizontalSeparatorOptions(
-                type: SegmentioHorizontalSeparatorType.topAndBottom, // Top, Bottom, TopAndBottom
-                height: 1,
-                color: .clear
-            ),
-            verticalSeparatorOptions: SegmentioVerticalSeparatorOptions(
-                ratio: 0.0, // from 0.1 to 1
-                color: .clear
-            ),
-            imageContentMode: .center,
-            labelTextAlignment: .center,
-            segmentStates: SegmentioStates(
-                defaultState: SegmentioState(
-                    backgroundColor: UIColor.lightGray.withAlphaComponent(0.6),
-                    titleFont: UIFont.boldSystemFont(ofSize: 12),
-                    titleTextColor: .lightGray
-                ),
-                selectedState: SegmentioState(
-                    backgroundColor: .clear,
-                    titleFont: UIFont.boldSystemFont(ofSize: 12),
-                    titleTextColor: .white
-                ),
-                highlightedState: SegmentioState(
-                    backgroundColor: UIColor.lightGray.withAlphaComponent(0.6),
-                    titleFont: UIFont.boldSystemFont(ofSize: 12),
-                    titleTextColor: .lightGray
-                )
-            )
-        )
-        
-        seguientioView.setup(
-            content: [SegmentioItem.init(title: "Account list", image: nil),SegmentioItem.init(title: "History", image: nil),SegmentioItem.init(title: "Statements", image: nil),SegmentioItem.init(title: "Transfer", image: nil)],
-            style: SegmentioStyle.onlyLabel,
-            options: opt
-        )
-        
-    }
     
+    @IBAction func details(_ sender: Any) {
+        self.onGoToB?()
+    }
+    //MARK:Table
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
+        return cell
+    }
+
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
 
     @IBAction func onGoToCartoes(_ sender: Any) {
         self.onGoToB?()
     }
-}
-typealias CarouselDatasource = HomeViewController
-extension CarouselDatasource: UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+    //MARK: TABs
+    func setupTab(){
+        SegmentioBuilder.buildSegmentioView(
+            segmentioView: tabCards,
+            segmentioStyle: segmentioStyle
+        )
+        SegmentioBuilder.setupBadgeCountForIndex(tabCards, index: 0)
+        
+        tabCards.valueDidChange = { [weak self] _, segmentIndex in
+            if let scrollViewWidth = self?.scrollView.frame.width {
+                let contentOffsetX = scrollViewWidth * CGFloat(segmentIndex)
+                self?.scrollView.setContentOffset(
+                    CGPoint(x: contentOffsetX, y: 0),
+                    animated: true
+                )
+            }
+        }
+        tabbed.selectedSegmentioIndex = selectedSegmentioIndex()
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+    func setupTabCards(){
+        //MARK: Tab cards
+        TabCards.buildCardsView(
+            segmentioView: tabbed,
+            segmentioStyle: segmentioStyle
+        )
+        TabCards.setupBadgeCountForIndex(tabbed, index: 0)
         
-        if let scalingCell = cell as? ScalingCarouselCell {
-            //cell.main
-            //scalingCell.mainView?.backgroundColor = .red
-            
-            
-            //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "c1")!)
-            scalingCell.mainView?.backgroundColor =  UIColor(patternImage: UIImage(named: "c1")!)
-           // scalingCell.mainView?.backgroundColor =  UIColor(patternImage: UIImage(named: "background")!)
-            //scalingCell.mainView?.backgroundColor =  UIColor(patternImage: UIImage(named: "logo")!)
-            
+        tabbed.valueDidChange = { [weak self] _, segmentIndex in
+            if let scrollViewWidth = self?.scrollView.frame.width {
+                let contentOffsetX = scrollViewWidth * CGFloat(segmentIndex)
+                self?.scrollView.setContentOffset(
+                    CGPoint(x: contentOffsetX, y: 0),
+                    animated: true
+                )
+            }
         }
-        
-        DispatchQueue.main.async {
-            cell.setNeedsLayout()
-            cell.layoutIfNeeded()
-        }
-        
-        return cell
+        tabCards.selectedSegmentioIndex = selectedSegmentioIndex()
+    }
+    
+    private func selectedSegmentioIndex() -> Int {
+        return 0
     }
 }
-
-typealias CarouselDelegate = HomeViewController
-extension HomeViewController: UICollectionViewDelegate {
+extension HomeViewController: UIScrollViewDelegate {
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let currentPage = floor(scrollView.contentOffset.x / scrollView.frame.width)
+        tabbed.selectedSegmentioIndex = Int(currentPage)
+        tabCards.selectedSegmentioIndex = Int(currentPage)
+    }
+    
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        //carousel.didScroll()
-        
-        guard let currentCenterIndex = carousel.currentCenterCellIndex?.row else { return }
-        
-        //output.text = String(describing: currentCenterIndex)
+        scrollView.contentSize = CGSize(width: scrollView.contentSize.width, height: 0)
     }
 }
-
-private typealias ScalingCarouselFlowDelegate = HomeViewController
-extension ScalingCarouselFlowDelegate: UICollectionViewDelegateFlowLayout {
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        
-        return 0
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        
-        return 0
-    }
-}
-

@@ -25,15 +25,50 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vk1-aX-rmk">
+                                <rect key="frame" x="0.0" y="445" width="414" height="451"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="sdW-Ct-WnC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="8bp-9b-mcZ"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9aO-yA-4ai" customClass="Segmentio" customModule="Segmentio">
+                                <rect key="frame" x="-7" y="194" width="414" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXy-Xn-uTh" customClass="Segmentio" customModule="Segmentio">
+                                <rect key="frame" x="0.0" y="121" width="414" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.63137254899999995" green="0.1404408617" blue="0.63175079320000005" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sdW-Ct-WnC" firstAttribute="leading" secondItem="nJp-tE-CGH" secondAttribute="leading" id="ed2-Xd-KPG"/>
+                            <constraint firstItem="sdW-Ct-WnC" firstAttribute="trailing" secondItem="nJp-tE-CGH" secondAttribute="trailing" id="fUG-vY-p8f"/>
+                            <constraint firstItem="sdW-Ct-WnC" firstAttribute="top" secondItem="7rm-6N-dTw" secondAttribute="top" id="w3q-kl-UpF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nJp-tE-CGH"/>
                     </view>
+                    <connections>
+                        <outlet property="containerView" destination="7rm-6N-dTw" id="aAY-89-tSG"/>
+                        <outlet property="scrollView" destination="vk1-aX-rmk" id="EwR-Sl-F7j"/>
+                        <outlet property="segmentioView" destination="9aO-yA-4ai" id="ZLA-CF-f5b"/>
+                        <outlet property="tabCards" destination="QXy-Xn-uTh" id="Bgi-CU-m3a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m94-0t-MfM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-78.260869565217391" y="145.98214285714286"/>
+            <point key="canvasLocation" x="-146.37681159420291" y="39.508928571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="636" height="253"/>
+    </resources>
 </document>
