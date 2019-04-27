@@ -6,7 +6,7 @@ App feito com mvvm cordinators flow, navegação usando coordinator.
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://github.com/wesleysfavarin/BankLayout)](https://github.com/wesleysfavarin/BankLayout)
+[![Build Status](https://github.com/wesleysfavarin/BankLayout/commit/5cc996c306045495927643ddc6ee9a8e17a780ec)](https://github.com/wesleysfavarin/BankLayout)
 
 ![](https://github.com/wesleysfavarin/BankLayout/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%20XR%20-%202019-04-07%20at%2021.07.10.png)
 
